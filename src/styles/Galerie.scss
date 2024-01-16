@@ -1,0 +1,15 @@
+#galerie {
+  max-width: 1440px;
+  padding: 0 100px;
+  box-sizing: border-box;
+  .galerie {
+    list-style-type: none;
+    background-color: #f6f6f6;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 55px;
+    gap: 55px;
+  }
+}
+

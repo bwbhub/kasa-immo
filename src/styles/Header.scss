@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 0 100px;
+  width: 1440px;
+  box-sizing: border-box;
+  .header-logo {
+    height: 68px;
+  }
+  nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    .nav-link {
+      color: #ff6060;
+      text-decoration: none;
+    }
+    .active {
+      text-decoration: underline #ff6060;
+    }
+  }
+}
+
+
+
+

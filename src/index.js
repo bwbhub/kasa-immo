@@ -2,12 +2,12 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './styles/index.scss'
-import Accueil from './components/Accueil'
-import Apropos from './components/Apropos'
-import Erreur from './components/Erreur'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Logement from './components/Logement'
+import Accueil from './components/Pages/Accueil'
+import Apropos from './components/Pages/Apropos'
+import Erreur from './components/Pages/Erreur'
+import Header from './components/HeaderFooter/Header'
+import Footer from './components/HeaderFooter/Footer'
+import Logement from './components/Pages/Logement'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -16,7 +16,6 @@ root.render(
       <Header />
       <Routes>
         <Route path="/" element={<Accueil />} />
-        <Route path="/Accueil" element={<Accueil />} />
         <Route path="/Apropos" element={<Apropos />} />
         <Route path="/Logement" element={<Logement />} />
         <Route path="*" element={<Erreur />}></Route>

@@ -1,0 +1,25 @@
+.logement-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    .logement-description-container{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        .logement-container-title-host{
+            color: #FF6060;
+            h1 {
+                font-size: 36px;
+            }
+            h2 {
+                font-size: 18px;
+            }
+        }
+        .logement-dropdown{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+    }
+}

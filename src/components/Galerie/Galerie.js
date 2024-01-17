@@ -1,5 +1,5 @@
-import '../styles/Galerie.scss'
-import logements from '../datas/logements.json'
+import '../../styles/Galerie.scss'
+import logements from '../../datas/logements.json'
 import Card from './Card'
 
 function Galerie() {

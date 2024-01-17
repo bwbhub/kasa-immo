@@ -1,6 +1,6 @@
-import '../styles/Apropos.scss'
-import BannerApropos from '../components/BannerApropos'
-import Dropdown from './Dropdown'
+import '../../styles/Apropos.scss'
+import BannerApropos from '../Banner/BannerApropos'
+import Dropdown from '../Dropdown'
 
 function Apropos() {
   const title1 = 'Fiabilité '

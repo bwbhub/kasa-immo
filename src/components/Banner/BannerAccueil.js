@@ -1,5 +1,5 @@
-import fond from '../assets/banniere_accueil.png'
-import '../styles/Banner.scss'
+import fond from '../../assets/banniere_accueil.png'
+import '../../styles/Banner.scss'
 
 function BannerAccueil() {
   return (

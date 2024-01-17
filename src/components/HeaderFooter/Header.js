@@ -1,6 +1,6 @@
-import logo from '../assets/logo_kasa.png'
+import logo from '../../assets/logo_kasa.png'
 import { NavLink } from 'react-router-dom'
-import '../styles/Header.scss'
+import '../../styles/Header.scss'
 
 function Header() {
   return (
@@ -8,7 +8,7 @@ function Header() {
       <img src={logo} className="header-logo" alt="logo" />
       <nav>
         <NavLink
-          to="/Accueil"
+          to="/"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }

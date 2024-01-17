@@ -1,10 +1,25 @@
-.logement-btn-container{
+.carousel-btn-container{
   display: flex;
-  justify-content: space-between;
-  .logement-btn{
+  position: relative;
+  align-items: center;
+  border-radius: 25px;
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 415px;
+  .carousel-btn{
     background: none;
     border: none;
-    color: #000000;
+    color: #ffffff;
     font-size: 98px;
+    position: absolute;
+  }
+  .next{
+    right: 15px;
+  }
+  .previous{
+    left: 15px;
+  }
+  .carousel-photo{
+    box-sizing: border-box;
   }
 }

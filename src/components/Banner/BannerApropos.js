@@ -1,5 +1,5 @@
-import fond from '../assets/banniere_apropos.png'
-import '../styles/Banner.scss'
+import fond from '../../assets/banniere_apropos.png'
+import '../../styles/Banner.scss'
 
 function BannerApropos() {
   return (

@@ -6,20 +6,25 @@ import {
   faChevronLeft,
   faChevronRight,
 } from '@fortawesome/free-solid-svg-icons'
+import imageTempo from '../assets/banniere_accueil.png'
 
 function Slideshow() {
   const [index, setIndex] = useState(0)
 
   return (
     <div className="logement-carousel">
-      <div className="logement-btn-container">
-        <button className="logement-btn previous">
+      <div className="carousel-btn-container">
+        <button className="carousel-btn previous">
           <FontAwesomeIcon icon={faChevronLeft} />
         </button>
-        <button className="logement-btn next">
+        <div className='carousel-photo'>
+          <img src={imageTempo} alt={imageTempo}></img>
+        </div>
+        <button className="carousel-btn next">
           <FontAwesomeIcon icon={faChevronRight} />
         </button>
       </div>
+      <div className='carousel-count'></div>
     </div>
   )
 }

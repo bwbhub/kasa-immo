@@ -1,8 +1,8 @@
 import React from 'react'
-import BannerAccueil from './BannerAccueil'
-import Galerie from './Galerie'
+import BannerAccueil from '../Banner/BannerAccueil'
+import Galerie from '../Galerie/Galerie'
 
-import '../styles/Accueil.scss'
+import '../../styles/Accueil.scss'
 
 function Accueil() {
   return (

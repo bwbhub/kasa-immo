@@ -1,0 +1,10 @@
+.logement-btn-container{
+  display: flex;
+  justify-content: space-between;
+  .logement-btn{
+    background: none;
+    border: none;
+    color: #000000;
+    font-size: 98px;
+  }
+}

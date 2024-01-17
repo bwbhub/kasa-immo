@@ -1,10 +1,5 @@
-.section-dropdown {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  box-sizing: border-box;
-  .container-dropdown {
-    width: 1023px;
+.container-dropdown {
+    max-width: 1023px;
     position: relative;
     display: inline-block;
     .topbar-dropdown {
@@ -21,20 +16,19 @@
         color: #ffffff;
         cursor: pointer;
       }
-      
     }
     .bottombar-dropdown {
       background-color: #f6f6f6;
       color: #ff6060;
+      border-radius: 10px 10px 5px 5px;
       
       //Animation
       
       max-height: 0px;
       overflow: hidden;
-      transition: max-height 0.5s ease-in-out;
+      transition: max-height 0.3s ease-in-out, transform 0.3s ease-in-out;
 
       .bottombar-text{
-        border-radius: 10px 10px 5px 5px;
         padding: 20px ;
       }
     }
@@ -42,7 +36,7 @@
       max-height: 300px;
     }
   }
-}
+
 
 
 

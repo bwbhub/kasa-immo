@@ -18,10 +18,12 @@ function Apropos() {
   return (
     <div className="apropos">
       <BannerApropos />
-      <Dropdown title={title1} text={text1} />
-      <Dropdown title={title2} text={text2} />
-      <Dropdown title={title3} text={text3} />
-      <Dropdown title={title4} text={text4} />
+      <div className="section-dropdown">
+        <Dropdown title={title1} text={text1} />
+        <Dropdown title={title2} text={text2} />
+        <Dropdown title={title3} text={text3} />
+        <Dropdown title={title4} text={text4} />
+      </div>
     </div>
   )
 }

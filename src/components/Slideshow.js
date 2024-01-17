@@ -17,14 +17,14 @@ function Slideshow() {
         <button className="carousel-btn previous">
           <FontAwesomeIcon icon={faChevronLeft} />
         </button>
-        <div className='carousel-photo'>
+        <div className="carousel-photo">
           <img src={imageTempo} alt={imageTempo}></img>
         </div>
         <button className="carousel-btn next">
           <FontAwesomeIcon icon={faChevronRight} />
         </button>
       </div>
-      <div className='carousel-count'></div>
+      <div className="carousel-count"></div>
     </div>
   )
 }

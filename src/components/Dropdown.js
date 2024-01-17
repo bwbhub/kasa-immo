@@ -9,23 +9,21 @@ function Dropdown({ title, text }) {
   const handleToggle = () => setOpen(!open)
 
   return (
-    <div className="section-dropdown">
-      <div className="container-dropdown">
-        <div className="topbar-dropdown">
-          <h2>{title}</h2>
-          {open ? (
-            <button className="btn-dropdown" onClick={handleToggle}>
-              <FontAwesomeIcon icon={faChevronDown} />
-            </button>
-          ) : (
-            <button className="btn-dropdown" onClick={handleToggle}>
-              <FontAwesomeIcon icon={faChevronUp} />
-            </button>
-          )}
-        </div>
-        <div className={`bottombar-dropdown ${open ? 'open' : ''}`}>
-          <p className="bottombar-text">{text}</p>
-        </div>
+    <div className="container-dropdown">
+      <div className="topbar-dropdown">
+        <h2>{title}</h2>
+        {open ? (
+          <button className="btn-dropdown" onClick={handleToggle}>
+            <FontAwesomeIcon icon={faChevronDown} />
+          </button>
+        ) : (
+          <button className="btn-dropdown" onClick={handleToggle}>
+            <FontAwesomeIcon icon={faChevronUp} />
+          </button>
+        )}
+      </div>
+      <div className={`bottombar-dropdown ${open ? 'open' : ''}`}>
+        <p className="bottombar-text">{text}</p>
       </div>
     </div>
   )

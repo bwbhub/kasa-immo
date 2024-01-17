@@ -5,3 +5,10 @@
   align-items: center;
   gap: 40px;
 }
+.section-dropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 30px;
+}

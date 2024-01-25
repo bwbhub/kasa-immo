@@ -1,8 +1,8 @@
-import React from 'react'
-import BannerAccueil from '../Banner/BannerAccueil'
-import Galerie from '../Galerie/Galerie'
+import React from "react";
+import BannerAccueil from "../Banner/BannerAccueil";
+import Galerie from "../Galerie/Galerie";
 
-import '../../styles/Accueil.scss'
+import "../../styles/Accueil.scss";
 
 function Accueil() {
   return (
@@ -10,7 +10,7 @@ function Accueil() {
       <BannerAccueil />
       <Galerie />
     </div>
-  )
+  );
 }
 
-export default Accueil
+export default Accueil;

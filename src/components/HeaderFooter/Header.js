@@ -1,6 +1,6 @@
-import logo from '../../assets/logo_kasa.png'
-import { NavLink } from 'react-router-dom'
-import '../../styles/Header.scss'
+import logo from "../../assets/logo_kasa.png";
+import { NavLink } from "react-router-dom";
+import "../../styles/Header.scss";
 
 function Header() {
   return (
@@ -10,22 +10,22 @@ function Header() {
         <NavLink
           to="/"
           className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
+            isActive ? "nav-link active" : "nav-link"
           }
         >
           Accueil
         </NavLink>
         <NavLink
-          to="/Apropos"
+          to="/apropos"
           className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
+            isActive ? "nav-link active" : "nav-link"
           }
         >
           A propos
         </NavLink>
       </nav>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

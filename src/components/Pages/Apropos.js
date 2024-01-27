@@ -1,9 +1,13 @@
 import "../../styles/Desktop/Apropos.scss";
-
 import BannerApropos from "../Banner/BannerApropos";
 import Dropdown from "../Dropdown";
+import { useEffect } from "react";
 
 function Apropos() {
+  useEffect(() => {
+    document.title = "A propos";
+  }, []);
+
   const title1 = "Fiabilité ";
   const title2 = "Respect";
   const title3 = "Service";

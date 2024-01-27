@@ -22,5 +22,11 @@ footer {
       text-align: center;
       font-size: 12px;
     }
+    .mobile-break {
+      display: none;
+      @media screen and (max-width: 375px) {
+        display: block;
+      }
+    }
   }
 }

@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #ffffff;
@@ -13,10 +13,6 @@ body {
   color: white;
 }
 
-h1, h2, h3 {
-  font-weight: 400;
-}
-
 #root {
   min-height: 100vh;
   display: flex;
@@ -24,4 +20,10 @@ h1, h2, h3 {
   justify-content: center;
   align-items: center;
   gap: 30px;
+
+  @media screen and (max-width: 375px) {
+    max-width: 375px;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
 }

@@ -2,7 +2,7 @@ import React from "react";
 import BannerAccueil from "../Banner/BannerAccueil";
 import Galerie from "../Galerie/Galerie";
 
-import "../../styles/Accueil.scss";
+import "../../styles/Desktop/Accueil.scss";
 
 function Accueil() {
   return (

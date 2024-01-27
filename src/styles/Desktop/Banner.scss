@@ -1,0 +1,39 @@
+.banner {
+  max-width: 1240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 223px;
+  overflow: hidden;
+  border-radius: 30px;
+  @media screen and (max-width: 375px) {
+    max-width: 335px;
+    box-sizing: border-box;
+    height: 111px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .banner-img {
+    filter: brightness(70%);
+    @media screen and (max-width: 375px) {
+      width: 150%;
+    }
+  }
+  h1 {
+    position: absolute;
+    font-size: 48px;
+    letter-spacing: 0.15rem;
+    @media screen and (max-width: 375px) {
+      font-size: 24px;
+      font-weight: 500;
+      left: 10px;
+    }
+  }
+  .mobile-break {
+    display: none;
+    @media screen and (max-width: 375px) {
+      display: block;
+    }
+  }
+}

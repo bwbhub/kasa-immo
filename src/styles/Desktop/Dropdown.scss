@@ -10,6 +10,12 @@
     padding: 10px 15px;
     border-radius: 5px;
     position: relative;
+    @media screen and (max-width: 375px) {
+      h2 {
+        font-size: 13px;
+        font-weight: 500;
+      }
+    }
     .btn-dropdown {
       border: none;
       background-color: #ff6060;
@@ -21,6 +27,12 @@
     background-color: #f6f6f6;
     color: #ff6060;
     border-radius: 10px 10px 5px 5px;
+    @media screen and (max-width: 375px) {
+      p,
+      li {
+        font-size: 12px;
+      }
+    }
 
     //Animation
 

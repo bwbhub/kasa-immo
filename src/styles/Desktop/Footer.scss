@@ -8,6 +8,9 @@ footer {
   align-items: center;
   gap: 40px;
   margin-top: auto;
+  @media screen and (max-width: 375px) {
+    gap: 10px;
+  }
   .footer-logo {
     width: 122px;
   }
@@ -15,5 +18,9 @@ footer {
     font-size: 24px;
     color: #ffffff;
     font-weight: 400;
+    @media screen and (max-width: 375px) {
+      text-align: center;
+      font-size: 12px;
+    }
   }
 }

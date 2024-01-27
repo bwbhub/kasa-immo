@@ -10,14 +10,22 @@
   .erreur-title {
     font-size: 288px;
     font-weight: 700;
+    @media screen and (max-width: 375px) {
+      font-size: 96px;
+    }
   }
   .erreur-text {
     font-size: 36px;
+    @media screen and (max-width: 375px) {
+      font-size: 18px;
+      text-align: center;
+    }
   }
   .erreur-link {
     font-size: 18x;
     color: #ff6060;
+    @media screen and (max-width: 375px) {
+      font-size: 14px;
+    }
   }
 }
-
-

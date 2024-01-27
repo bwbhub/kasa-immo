@@ -1,6 +1,6 @@
 import logo from "../../assets/logo_kasa.png";
 import { NavLink } from "react-router-dom";
-import "../../styles/Header.scss";
+import "../../styles/Desktop/Header.scss";
 
 function Header() {
   return (

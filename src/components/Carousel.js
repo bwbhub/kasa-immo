@@ -1,5 +1,4 @@
-import "../styles/Slider.scss";
-import logements from "../datas/logements.json";
+import "../styles/Desktop/Carousel.scss";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -7,7 +6,7 @@ import {
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 
-function Slider({ picture }) {
+function Carousel({ picture }) {
   const [index, setIndex] = useState(0);
   const nextImage = () => {
     setIndex((index) => (index + 1) % picture.length);
@@ -37,4 +36,4 @@ function Slider({ picture }) {
   );
 }
 
-export default Slider;
+export default Carousel;

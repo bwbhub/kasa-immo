@@ -1,4 +1,4 @@
-import "../../styles/Galerie.scss";
+import "../../styles/Desktop/Galerie.scss";
 import logements from "../../datas/logements.json";
 import Card from "./Card";
 
@@ -24,20 +24,18 @@ function Galerie() {
               cover={cover}
               id={id}
               title={title}
-              data={[
-                {
-                  id: id,
-                  title: title,
-                  cover: cover,
-                  pictures: pictures,
-                  description: description,
-                  host: host,
-                  rating: rating,
-                  location: location,
-                  equipments: equipments,
-                  tags: tags,
-                },
-              ]}
+              data={{
+                id: id,
+                title: title,
+                cover: cover,
+                pictures: pictures,
+                description: description,
+                host: host,
+                rating: rating,
+                location: location,
+                equipments: equipments,
+                tags: tags,
+              }}
             />
           )
         )}

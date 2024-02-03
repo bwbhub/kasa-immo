@@ -1,5 +1,5 @@
-import fond from "../../assets/banniere_accueil.png";
-import "../../styles/Desktop/Banner.scss";
+import fond from '../../assets/banniere_accueil.png'
+import '../../styles/Banner.scss'
 
 function BannerAccueil() {
   return (
@@ -10,7 +10,7 @@ function BannerAccueil() {
         partout et ailleurs
       </h1>
     </div>
-  );
+  )
 }
 
-export default BannerAccueil;
+export default BannerAccueil

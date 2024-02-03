@@ -1,10 +1,10 @@
-import "../../styles/Desktop/Card.scss";
-import { Link } from "react-router-dom";
+import '../../styles/Card.scss'
+import { Link } from 'react-router-dom'
 
 function Card({ id, title, cover, data }) {
   const localStore = () => {
-    localStorage.setItem("dataString", JSON.stringify(data));
-  };
+    localStorage.setItem('dataString', JSON.stringify(data))
+  }
 
   return (
     <li className="card-container">
@@ -15,7 +15,7 @@ function Card({ id, title, cover, data }) {
         </div>
       </Link>
     </li>
-  );
+  )
 }
 
-export default Card;
+export default Card

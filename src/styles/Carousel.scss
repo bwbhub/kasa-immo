@@ -3,7 +3,7 @@
     width: 335px;
     height: 255px;
   }
-  .carousel-btn-container {
+  .carousel-container {
     display: flex;
     position: relative;
     align-items: center;
@@ -15,26 +15,30 @@
       border-radius: 10px;
       height: 100%;
     }
-    .carousel-btn {
-      background: none;
-      border: none;
-      color: #ffffff;
-      font-size: 98px;
-      position: absolute;
-      @media screen and (max-width: 375px) {
-        font-size: 24px;
+    .carousel-btn-container {
+      display: flex;
+      align-items: center;
+      .carousel-btn {
+        background: none;
+        border: none;
+        color: #ffffff;
+        font-size: 98px;
+        position: absolute;
+        @media screen and (max-width: 375px) {
+          font-size: 24px;
+        }
       }
-    }
-    .next {
-      right: 15px;
-      @media screen and (max-width: 375px) {
-        right: 5px;
+      .next {
+        right: 15px;
+        @media screen and (max-width: 375px) {
+          right: 5px;
+        }
       }
-    }
-    .previous {
-      left: 15px;
-      @media screen and (max-width: 375px) {
-        left: 5px;
+      .previous {
+        left: 15px;
+        @media screen and (max-width: 375px) {
+          left: 5px;
+        }
       }
     }
     .carousel-photo {

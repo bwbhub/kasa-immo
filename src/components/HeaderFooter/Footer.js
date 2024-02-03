@@ -1,5 +1,5 @@
-import logo from "../../assets/logo_kasa_white.png";
-import "../../styles/Desktop/Footer.scss";
+import logo from '../../assets/logo_kasa_white.png'
+import '../../styles/Footer.scss'
 
 function Footer() {
   return (
@@ -10,7 +10,7 @@ function Footer() {
         <br className="mobile-break" /> rights reserved
       </p>
     </footer>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

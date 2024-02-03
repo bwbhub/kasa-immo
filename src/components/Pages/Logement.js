@@ -1,35 +1,35 @@
-import "../../styles/Desktop/Logement.scss";
-import Dropdown from "../Dropdown";
-import { useNavigate } from "react-router-dom";
-import { useEffect } from "react";
-import { useParams } from "react-router-dom";
-import Rating from "../Rating";
-import Carousel from "../Carousel";
+import '../../styles/Logement.scss'
+import Dropdown from '../Dropdown'
+import { useNavigate } from 'react-router-dom'
+import { useEffect } from 'react'
+import { useParams } from 'react-router-dom'
+import Rating from '../Rating'
+import Carousel from '../Carousel'
 
 function Logement() {
-  const localData = localStorage.getItem("dataString");
-  const data = JSON.parse(localData);
-  const id = data.id;
-  const pictures = data.pictures;
-  const title = data.title;
-  const location = data.location;
-  const host = data.host;
-  const tags = data.tags;
-  const rating = data.rating;
-  const description = data.description;
-  const equipments = data.equipments;
-  const navigate = useNavigate();
-  const params = useParams();
+  const localData = localStorage.getItem('dataString')
+  const data = JSON.parse(localData)
+  const id = data.id
+  const pictures = data.pictures
+  const title = data.title
+  const location = data.location
+  const host = data.host
+  const tags = data.tags
+  const rating = data.rating
+  const description = data.description
+  const equipments = data.equipments
+  const navigate = useNavigate()
+  const params = useParams()
 
   useEffect(() => {
-    document.title = `${title}`;
-  }, []);
+    document.title = `${title}`
+  }, [])
 
   useEffect(() => {
     if (id !== params.id) {
-      navigate("/erreur");
+      navigate('/erreur')
     }
-  }, []);
+  }, [])
 
   return (
     <div className="logement-container">
@@ -68,7 +68,7 @@ function Logement() {
         />
       </div>
     </div>
-  );
+  )
 }
 
-export default Logement;
+export default Logement

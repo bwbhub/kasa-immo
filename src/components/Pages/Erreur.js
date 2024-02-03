@@ -1,11 +1,11 @@
-import "../../styles/Desktop/Erreur.scss";
-import { Link } from "react-router-dom";
-import { useEffect } from "react";
+import '../../styles/Erreur.scss'
+import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
 
 function Erreur() {
   useEffect(() => {
-    document.title = "Erreur";
-  }, []);
+    document.title = 'Erreur'
+  }, [])
   return (
     <div className="erreur-container">
       <h2 className="erreur-title">404</h2>
@@ -17,7 +17,7 @@ function Erreur() {
         Retourner sur la page d'accueil
       </Link>
     </div>
-  );
+  )
 }
 
-export default Erreur;
+export default Erreur

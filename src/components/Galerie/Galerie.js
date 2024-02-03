@@ -1,6 +1,6 @@
-import "../../styles/Desktop/Galerie.scss";
-import logements from "../../datas/logements.json";
-import Card from "./Card";
+import '../../styles/Galerie.scss'
+import logements from '../../datas/logements.json'
+import Card from './Card'
 
 function Galerie() {
   return (
@@ -37,11 +37,11 @@ function Galerie() {
                 tags: tags,
               }}
             />
-          )
+          ),
         )}
       </ul>
     </div>
-  );
+  )
 }
 
-export default Galerie;
+export default Galerie

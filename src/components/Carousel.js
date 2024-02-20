@@ -33,7 +33,7 @@ function Carousel({ picture }) {
           </div>
         ) : null}
         <div className="carousel-photo">
-          <img src={picture[index]} alt={`Numéro ${index + 1}`}></img>
+          <img src={picture[index]} alt={`Numéro ${index + 1}`} />
         </div>
       </div>
     </div>

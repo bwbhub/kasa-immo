@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kasa-immo/static/css/main.1ff6d7f4.css",
+    "main.js": "/kasa-immo/static/js/main.047f7a0a.js",
+    "static/media/banniere_apropos.png": "/kasa-immo/static/media/banniere_apropos.abab3f12f4cb82f1dfa1.png",
+    "static/media/banniere_accueil.png": "/kasa-immo/static/media/banniere_accueil.d00ae7dd3ef927bb988d.png",
+    "index.html": "/kasa-immo/index.html",
+    "main.1ff6d7f4.css.map": "/kasa-immo/static/css/main.1ff6d7f4.css.map",
+    "main.047f7a0a.js.map": "/kasa-immo/static/js/main.047f7a0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ff6d7f4.css",
+    "static/js/main.047f7a0a.js"
+  ]
+}
